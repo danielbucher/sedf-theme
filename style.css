@@ -2,7 +2,7 @@
 
 /* Main style page */
 body {
-    background: #FFF url('http://www.se.df.gov.br/wp-content/uploads/bg-gradient.png') top left repeat-x;
+    background: #FFF url('./images/bg-gradient.png') top left repeat-x;
 }
 
 #wrap-1 {
@@ -49,7 +49,6 @@ body {
 }
 
 #profile-header {
-    min-height: 150px;
     max-height: 200px;
     overflow: hidden;
     margin: 0px;
@@ -63,13 +62,6 @@ body {
 #site-title { top: -40px; }
 
 #user { top: -35px; }
-
-#barra-brasil {
-    box-shadow: 0px 0px 10px #DFDFDF inset;
-    z-index: 9999;
-    position: relative;
-    width: 100%;
-}
 
 #barra-psocial {
     position: relative;
@@ -210,7 +202,8 @@ div#article-parent {
 
 /* Menu List left */
 
-#content .box-2 .block-title {
+#content .box-2 .block-title,
+#content .box-3 .block-title {
     font-size: 12px;
     text-align: left;
     border-top: 4px solid #757575;
@@ -258,8 +251,6 @@ div#article-parent {
 
 #content .box-1 .block {
     background: #eeefff;
-    width: 48%;
-    float: left;
     margin-right: 10px;
 }
 
@@ -283,18 +274,6 @@ div#article-parent {
 
 #content .blog-post .title {
     text-align: left;
-}
-
-/* Box styles */
-.box-2 {
-    width: 160px;
-    margin-bottom: 40px;
-}
-
-#content .box-3 .block {
-    width: 210px;
-    margin: 0px 0px 0px 30px;
-    float: left;
 }
 
 /* Editorial Area */
@@ -321,13 +300,8 @@ div#article-parent {
     font-size: 20px;
 }
 
-#content .box-1 .recent-content-block .block-footer-content a {
-    position: relative;
-    background-color: #DFDFDF;
-    width: auto;
-    display: block;
-    text-align: right;
-    padding: 5px 15px;
+.block-footer-content a {
+    top: 10px !important;
 }
 
 #content .box-1 .recent-content-block ul {
@@ -428,49 +402,6 @@ div#article-parent {
 
 #content .box-1 .display-content-block {
     width: 250px;
-}
-
-/* Menu List footer */
-
-#content .box-3 .block-title {
-    font-size: 12px;
-    text-align: left;
-    border-top: none;
-    background: #FFF;
-    border-bottom: none;
-    color: #757575;
-    padding: 5px;
-    text-transform: uppercase;
-    margin: 0;
-}
-
-#content .box-3 .link-list-block li a.link-this-page {
-    width: auto;
-    border-right: none;
-    font-weight: bold;
-    background-color: #eeefff;
-    border-radius: 0px;
-}
-
-#content .box-3 .link-list-block li a {
-    font-size: 14px;
-    line-height: 1em;
-    color: #545454;
-    background-color: #FFF;
-    border-radius: none;
-    padding: 0.6em 1.5em;
-}
-
-#content .box-3 .link-list-block li a:hover {
-    background-color: #FFF;
-    color: #436976;
-}
-
-#content .box-3 .link-list-block li {
-  border-bottom: none;
-  border-top: none;
-  padding: 0;
-  margin: 0;
 }
 
 /* Agenda Style */
