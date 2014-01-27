@@ -37,7 +37,7 @@ body {
     background-image: -o-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
     background-image: -moz-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
     background-image: -webkit-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
-    background-image: -ms-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%); 
+    background-image: -ms-linear-gradient(bottom, #E8E8E8 20%, #FEFEFE 80%);
     background-image: -webkit-gradient(
         linear,
         left bottom,
@@ -404,6 +404,15 @@ div#article-parent {
     width: 250px;
 }
 
+/* Article Style */
+#article-tags {
+  margin: 0px 0px 0px 0px;
+}
+
+#article .blog-feed-link {
+  top: 35px;
+}
+
 /* Agenda Style */
 
 #events-of-the-day h2 {
@@ -514,7 +523,7 @@ div#article-parent {
 
 .formfield input, .formfield textarea {
   border: 1px solid #DFDFDF !important;
-  background-image: none  !important;  
+  background-image: none  !important;
   background-color: #fff !important;
   line-height: 1.8em !important;
   color: #333 !important;
