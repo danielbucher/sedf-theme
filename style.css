@@ -648,9 +648,9 @@ div#article-parent {
   opacity: 0.7;
   vertical-align: middle;
   margin-left: 3px;
-  float: right;
   margin-top: 10px;
 }
+
 #copyright img:hover {
   opacity: 1;
 }
